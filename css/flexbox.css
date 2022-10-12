@@ -1,0 +1,46 @@
+.headerPrincipal .container {
+  display: flex;
+  /* colocar elementos uno tras otro*/
+  align-items: center;
+  /* Alinear items de manera vertical */
+  justify-content: space-between;
+  /* menu de lado derecho */
+}
+
+.headerPrincipal-nav {
+  display: flex;
+  /* los elementos se alinean uno tras otro */
+  /* ! https://caniuse.com/ */
+}
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin-right:5%;
+}
+
+.rodapePrincipal-contatoForm {
+
+  width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-direction: column;
+  /* Pad+on por filas, función columnas */
+  height: 310px;
+  /* crear tamaño de columnas */
+  flex-wrap:wrap ;
+  /* rellenar columnas */
+}
