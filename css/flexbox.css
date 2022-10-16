@@ -44,3 +44,13 @@
   flex-wrap:wrap ;
   /* rellenar columnas */
 }
+
+.contenidoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link {
+  display: flex;
+  width: 23%;
+}
